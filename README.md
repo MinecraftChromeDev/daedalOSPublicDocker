@@ -1,4 +1,40 @@
-## 🌌 **daedalOS** 🌌
+##### Notes
+
+THIS IS NOT MINE AND I DO NOT CLAIM OF OWNING THIS, I SIMPLY UPLOADED IT TO GITHUB FOR EASE OF ACCESS
+
+
+# Try It 🚀
+
+##### Requirements
+
+- [Node.js](https://nodejs.org/en/download/)
+- [Yarn](https://yarnpkg.com/en/)
+
+##### Development
+
+```
+yarn install
+yarn build:prebuild
+yarn dev
+```
+
+##### Production
+
+```
+yarn install
+yarn build
+yarn serve
+```
+
+##### Docker (edited)
+
+```
+docker pull ghcr.io/minecraftchromedev/daedalos
+docker run -dp 3000:3000 --rm --name daedalos daedalos
+```
+
+
+ ## 🌌 **daedalOS** 🌌
 
 ## _Desktop environment in the browser_
 
